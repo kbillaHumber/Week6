@@ -1,0 +1,55 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+main{
+    border: 10px solid lightgray;
+    padding-left: 2%;
+}
+
+main li {
+    font-size: 90%;
+    color: cornflowerblue;
+
+}
+
+/* ul a {
+    color:green;
+} */
+h2+p { margin-top: .5em; }
+
+main>p { font-size: 80%; }
+
+ul.speakers { list-style-type: square; }
+
+ h2, h3 { color: blue; }
+
+p, ul.speakers li {
+    font-family: "Times New Roman", serif; }
+
+a[href]{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+a[href]:link{
+    color:darkkhaki;
+}
+
+a[href]:hover{
+    color:blanchedalmond;
+}
+
+a[href]:visited{
+    color:darkcyan;
+}
+
+a[href]:active{
+    color:cyan;
+}
+
+main:first-child{
+    color:darkblue;
+}
+main:first-child::first-letter{
+    color:red;
+    font-size: large;
+}
